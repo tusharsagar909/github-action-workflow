@@ -1,13 +1,13 @@
+
 name: Tusharsagar
 
 on:
-   push:
+  push:
     branches: [main]
+
 jobs:
-   demo:
-       runs-on: ubuntu-latest
+  demo:
+    runs-on: ubuntu-latest
     steps:
-      -name: Greatings
-      run: echo "hello world"
-  
-       
+      - name: Greetings
+        run: echo "hello world"
